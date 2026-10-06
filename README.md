@@ -361,6 +361,7 @@ salmon quant \
     --seqBias \
     --gcBias \
     -p 16 \
+    --numBootstraps 100 \
     -o output/salmon/"$SAMPLE"
 ```
 
@@ -393,6 +394,7 @@ salmon quant \
     --validateMappings \
     --seqBias \
     --gcBias \
+    --numBootstraps 100 \
     -p 16 \
     -o output/salmon/"$SAMPLE"
 ```
@@ -806,6 +808,7 @@ salmon quant \
     --seqBias \
     --gcBias \
     -p 16 \
+    --numBootstraps 100 \
     -o output/salmon/"$SAMPLE"
 ```
 
@@ -880,6 +883,7 @@ salmon quant \
     --seqBias \
     --gcBias \
     -p 16 \
+    --numBootstraps 100 \
     -o output/salmon/"$SAMPLE"
 ```
 
